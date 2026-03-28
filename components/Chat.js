@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
-import { PAIRS } from '../data/pairs'
+import { PAIRS } from '../data'
 import { findBest, getAnswer } from '../lib/match'
 
 export default function Chat() {

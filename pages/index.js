@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import Chat from '../components/Chat'
 
 const TAGS = ['ስርዓተ ምግቢ', 'ጽሬት', 'ኣእምሮኣዊ ጥዕና', 'ናይ ኣደ ጥዕና', 'ናይ ህጻን ጥዕና', 'ምክልኻል ሕማም']
@@ -25,7 +26,9 @@ export default function Home() {
 
       {/* Nav */}
       <nav className="nav">
-        <div className="nav-logo">እ<span>ፎይታ</span></div>
+        <div className="nav-logo">
+          <Image src="/logo.svg" alt="እፎይታ" width={36} height={36} /><span>እፎይታ</span>
+        </div>
         <div className="nav-badge">ቅዲ 1</div>
       </nav>
 
