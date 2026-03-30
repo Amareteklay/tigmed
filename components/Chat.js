@@ -77,9 +77,9 @@ export default function Chat() {
       <div className="chat-card">
 
         <div className="chat-header">
-          <div className="chat-avatar">እ</div>
+          <div className="chat-avatar">ት</div>
           <div>
-            <div className="chat-name">እፎይታ</div>
+            <div className="chat-name">ትግሜድ</div>
             <div className="chat-status">
               <span className="live-dot"/>
               {gender ? 'ብትግርኛ ሕቶ ሕክምናኻ ሕተት' : 'ሰላም — ቅድሚ ምጅማር ምረጽ'}
@@ -95,7 +95,7 @@ export default function Chat() {
             <div className="empty">
               <div className="empty-icon">⚕</div>
               <div className="empty-title">
-                {gender === 'm' ? 'ሰላም! እፎይታ ምስኻ ኣሎ።' : 'ሰላም! እፎይታ ምስኺ ኣሎ።'}
+                {gender === 'm' ? 'ሰላም! ትግሜድ ምስኻ ኣሎ።' : 'ሰላም! ትግሜድ ምስኺ ኣሎ።'}
               </div>
               <div className="empty-sub">
                 {gender === 'm' ? 'ሕቶ ሕክምናኻ ብትግርኛ ሕተት።' : 'ሕቶ ሕክምናኺ ብትግርኛ ሕተቲ።'}<br/>
@@ -156,7 +156,7 @@ export default function Chat() {
 function GenderSelect({ onSelect }) {
   return (
     <div className="gender-select">
-      <div className="gender-title">ሰላም! እፎይታ ን<em>ጥዕናኻ</em> ምስኻ ኣሎ።</div>
+      <div className="gender-title">ሰላም! ትግሜድ ን<em>ጥዕናኻ</em> ምስኻ ኣሎ።</div>
       <div className="gender-sub">ብኽብረትካ ምረጽ</div>
       <div className="gender-btns">
         <button className="gender-btn" onClick={() => onSelect('m')}>

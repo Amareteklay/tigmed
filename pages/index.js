@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>እፎይታ — ናይ ሕክምና ሓበሬታ ብትግርኛ</title>
-        <meta name="description" content="እፎይታ — ናይ ትግርኛ ሕክምና ሓበሬታ ሓጋዚ"/>
+        <title>ትግሜድ — ናይ ሕክምና ሓበሬታ ብትግርኛ</title>
+        <meta name="description" content="ትግሜድ — ናይ ትግርኛ ሕክምና ሓበሬታ ሓጋዚ"/>
       </Head>
 
       {/* Warning */}
@@ -27,21 +27,21 @@ export default function Home() {
       {/* Nav */}
       <nav className="nav">
         <div className="nav-logo">
-          <Image src="/logo.svg" alt="እፎይታ" width={36} height={36} /><span>እፎይታ</span>
+          <Image src="/logo.svg" alt="ትግሜድ" width={36} height={36} /><span>ትግሜድ</span>
         </div>
         <div className="nav-badge">ቅዲ 1</div>
       </nav>
 
       {/* Hero */}
       <section className="hero">
-        <div className="hero-eyebrow">እፎይታ — ናይ ትግርኛ ሕክምና ሓበሬታ</div>
+        <div className="hero-eyebrow">ትግሜድ — ናይ ትግርኛ ሕክምና ሓበሬታ</div>
         <h1 className="hero-title">
           ሕቶ ሕክምና ኣለካ?<br/>
-          <em>እፎይታ ምስኻ ኣሎ።</em>
+          <em>ትግሜድ ምስኻ ኣሎ።</em>
         </h1>
         <p className="hero-sub">
           ሕክምናዊ ሓበሬታ ብቋንቋኻ ምርካብ ናትካ መሰል እዩ።
-          እፎይታ ምስ ሓካይምን ነርሳትን ካብ ትግራይ ዝህነጽ ዘሎ ናይ ሕክምና ሓበሬታ ሓጋዚ እዩ።
+          ትግሜድ ምስ ሓካይምን ነርሳትን ካብ ትግራይ ዝህነጽ ዘሎ ናይ ሕክምና ሓበሬታ ሓጋዚ እዩ።
         </p>
         <div className="tags">
           {TAGS.map(t => <span key={t} className="tag">{t}</span>)}
@@ -78,11 +78,11 @@ export default function Home() {
             ሓካይም፡ ነርሳት፡ ፈለጥቲ —<br/><em>ሓግዙና።</em>
           </div>
           <p className="cta-sub">
-            እፎይታ ብናትኩም ሕክምናዊ ፍልጠት ይዕቢ።
+            ትግሜድ ብናትኩም ሕክምናዊ ፍልጠት ይዕቢ።
             ናይ ሕክምና ሕቶታትን ምልስታትን ብምርኣይ ክብርኹም ናብ ቋንቋና ይኣቱ።
             ኣብ ትግራይ ዘሎ ሓካይምን ነርሳትን ቅድምነት ይወሃቦም።
           </p>
-          <a className="cta-btn" href="mailto:hello@efoyta.org?subject=እፎይታ — ኣበርክቶ">
+          <a className="cta-btn" href="mailto:hello@tigmed.org?subject=ትግሜድ — ኣበርክቶ">
             ሓግዘና →
           </a>
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer>
-        እፎይታ · ናይ ትግርኛ ሕክምና ሓበሬታ · {new Date().getFullYear()}<br/>
+        ትግሜድ · ናይ ትግርኛ ሕክምና ሓበሬታ · {new Date().getFullYear()}<br/>
         <span style={{ opacity: 0.6, fontSize: 11 }}>
           እዚ ሕክምናዊ ምኽሪ ኣይኮነን — ንሓኪም ኣይትትክኦ
         </span>
