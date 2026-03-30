@@ -1,6 +1,6 @@
-# እፎይታ — ናይ ትግርኛ ሕክምና ሓበሬታ
+# ትግሜድ — ናይ ትግርኛ ሕክምና ሓበሬታ
 
-**እፎይታ** is a Tigrinya-language health information assistant built for communities in Tigray, Ethiopia and the broader Tigrinya-speaking diaspora.
+**ትግሜድ** is a Tigrinya-language health information assistant built for communities in Tigray, Ethiopia and the broader Tigrinya-speaking diaspora.
 
 Health information in your own language is a right, not a privilege. This project exists to close the gap.
 
@@ -29,7 +29,7 @@ If you want to contribute, open an issue or reach out directly.
 
 ## Disclaimer
 
-እፎይታ provides health information only — it is not a substitute for professional medical advice. In any emergency, go to a health facility immediately.
+ትግሜድ provides health information only — it is not a substitute for professional medical advice. In any emergency, go to a health facility immediately.
 
 ---
 
